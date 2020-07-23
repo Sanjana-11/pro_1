@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    font-family: "comic sans MS",cursive,sans-serif ;  
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+.logo {
+    letter-spacing: 1px;
+    float: left;
+    color: #fff;
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 10 em;
+}
+
+.menu {
+    float: right;
+    line-height: 50px;
+    margin: 0 2 em;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+ul li:nth-child(1) a {
+    color: #e2eeec;
+    border: 1px solid #d9e9e7;
+    padding: 10px 20px;
+    border-radius: 4px; 
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header h1 {
+    color: rgb(85, 12, 18);
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: rgb(10, 2, 41);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.header button {
+    color: #fff;
+    background: #5f101b;
+    padding: 18px 38px;
+    border: none;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "lucida console",monaco,monospace;
+}
