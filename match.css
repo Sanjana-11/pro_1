@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <title>Matched</title>
+        <link rel="stylesheet" href="match.css">
+      </head>
+
+    <body>
+        <div class="header">
+            <h1>It is a MATCH</h1>
+        </div>
+       <div class="row">
+  <div class="column">
+    <div class="card">
+    <div class="image">
+      <img src="boy1.jpg" width="200" height="300"></img>
+      </div>
+      <h3>NAME</h3>
+      <p>AGE</p>
+    </div>
+  </div>
+
+ 
+  <div class="column">
+    <div class="card">
+    <div class="image">
+       <img src="girl1.jpg" width="200" height="300"></img>
+       </div>
+      <h3>NAME</h3>
+      <p>AGE</p>
+    </div>
+  </div>
+        </div>
+<div class="footer">
+                <footer>
+                    <button type="button">MORE INFO</button>
+                </footer>
+            </div> 
+    </body>
+</html>
