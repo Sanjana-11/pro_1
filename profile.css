@@ -75,7 +75,7 @@ ul li:nth-child(1) a {
 
 .wrapper .left{
     width: 40%;
-    background: linear-gradient(to right,#f30404ce,#8b0505);
+    background: #8b0505;
     padding: 30px 25px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
